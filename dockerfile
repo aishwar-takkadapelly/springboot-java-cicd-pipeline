@@ -1,7 +1,7 @@
 # Use an official OpenJDK runtime as a parent images
 FROM openjdk:17-jdk
 
-# Set the working directory in the container
+# Set the working directory in the containers
 WORKDIR /app
 
 # Copy the local JAR file into the container
