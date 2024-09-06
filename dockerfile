@@ -10,5 +10,5 @@ COPY target/spring-petclinic-3.3.0-SNAPSHOT.jar /app/spring-petclinic-3.3.0-SNAP
 # Expose the port the app runs on
 EXPOSE 80
 
-# Define the command to run the JAR file
+# Define the command to run the JAR files
 ENTRYPOINT ["java", "-jar", "/app/spring-petclinic-3.3.0-SNAPSHOT.jar"]
