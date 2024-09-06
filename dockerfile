@@ -4,7 +4,7 @@ FROM openjdk:17-jdk
 # Set the working directory in the containers
 WORKDIR /app
 
-# Copy the local JAR file into the container
+# Copy the local JAR file into the containers
 COPY target/spring-petclinic-3.3.0-SNAPSHOT.jar /app/spring-petclinic-3.3.0-SNAPSHOT.jar
 
 # Expose the port the app runs on
